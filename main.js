@@ -21,7 +21,7 @@ var end_trial = {
 
 var instruct1 = {
     type: 'html-keyboard-response',
-    stimulus: 'Fist task - no feedback',
+    stimulus: 'First task - no feedback',
     prompt: 'Press a key to continue.',
     post_trial_gap: 500,
 };
@@ -98,6 +98,7 @@ var trial4 = {
 var cat_trial = {
 	type: 'categorize-html',
 	stimulus: 'Did you make a mistake?',
+	prompt:'Press Y/N',
 	choices: [89, 78],
 	key_answer: 89, 
 	show_stim_with_feedback: false,
